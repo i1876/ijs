@@ -20,6 +20,7 @@ public class MainActivity extends Activity {
         webSettings.setJavaScriptEnabled(true);
         webSettings.setBuiltInZoomControls(true);
         webViewMain.loadUrl(url);
+        System.out.println("dddddd");
         
     }
 
